@@ -1,0 +1,40 @@
+{
+  "name": "glaefall-adventures",
+  "title": "Glaefall Adventures",
+  "description": "A content pack for Glaefall Adventures",
+  "authors": [
+    {
+      "name": "Sophia Pearson",
+      "email": "codergal89@gmail.com"
+    }
+  ],
+  "url": "https://github.com/codergal89/glaefall-fvtt",
+  "bugs": "https://github.com/codergal89/glaefall-fvtt/issues",
+  "manifest": "",
+  "version": "0.1.0",
+  "minimumCoreVersion": "0.8.8",
+  "packs": [
+    {
+      "name": "npcs",
+      "label": "NPCs",
+      "path": "./packs/npcs.db",
+      "private": true,
+      "entity": "Actor"
+    }
+  ],
+  "system": [
+    "dnd5e"
+  ],
+  "dependencies": [
+    {
+      "name": "monsterblock",
+      "type": "module",
+      "manifest": "https://github.com/zeel01/MonsterBlocks/releases/latest/download/module.json"
+    },
+    {
+      "name": "dnd5e",
+      "type": "system",
+      "manifest": "https://gitlab.com/foundrynet/dnd5e/raw/master/system.json"
+    }
+  ]
+}
